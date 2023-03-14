@@ -2,3 +2,9 @@
   link: /
 - name: About
   link: /about.html
+- name: Academics 
+  link: /academic.html
+- name: Projects
+  link: /projects.html
+- name: Fun Stuff
+  link: /fun_stuff.html
