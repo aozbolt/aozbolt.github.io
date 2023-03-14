@@ -1,6 +1,6 @@
 <nav>
   {% for item in site.data.nav %}
-    <a href="/" {% unless page.url == item.link %} class="inactive" {% else %} class="current" {% endunless %}>
+    <a href="{{ item.link }}" {% unless page.url == item.link %} class="inactive" {% else %} class="current" {% endunless %}>
     {{ item.name }}
     </a>
   {% endfor %}
