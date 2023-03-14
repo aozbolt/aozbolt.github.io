@@ -1,9 +1,7 @@
 <nav>
-  <a href="/" {% unless page.url == "/" %} style="color: blue;" {% else %} style="color: red;" {% endunless %}>
-    Home
-  </a>
-  
-  <a href="/about.html" {% unless page.url == "/about.html" %} style="color: blue;" {% else %} style="color: red;" {% endunless %}>
-    About
-  </a>
+  {% for item in site.data.nav %}
+    <a href="/" {% unless page.url == item.link %} style="color: blue;" {% else %} style="color: red;" {% endunless %}>
+    {{ item.name }}
+    </a>
+  {% endfor %}
 </nav>
