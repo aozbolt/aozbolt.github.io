@@ -1,4 +1,4 @@
-ul.navbar {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,11 +6,11 @@ ul.navbar {
   overflow: hidden;
 }
 
-ul.navbar li {
+nav ul li {
   float: left;
 }
 
-ul.navbar li a {
+nav ul li a {
   display: block;
   padding: 8px;
   color: black;
@@ -19,6 +19,6 @@ ul.navbar li a {
   text-decoration: none;
 }
 
-ul.navbar li a:hover {
+nav ul li a:hover {
   background-color: #111
 }
