@@ -1,7 +1,24 @@
-.current {
-  color: green; 
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffaa;
+  overflow: hidden;
 }
 
-.inactive {
-  color: blue; 
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  padding: 8px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  background-color: #111
 }
