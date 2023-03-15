@@ -1,7 +1,11 @@
 <nav>
+  <ul>
   {% for item in site.data.nav %}
+    <li>
     <a href="{{ item.link }}" {% unless page.url == item.link %} class="inactive" {% else %} class="current" {% endunless %}>
     {{ item.name }}
     </a>
+    </li>
   {% endfor %}
+  </ul>  
 </nav>
