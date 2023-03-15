@@ -1,8 +1,8 @@
 <nav>
-  <ul>
+  <ul class="navbar">
   {% for item in site.data.nav %}
     <li>
-    <a href="{{ item.link }}" {% unless page.url == item.link %} class="inactive" {% else %} class="current" {% endunless %}>
+    <a href="{{ item.link }}">
     {{ item.name }}
     </a>
     </li>
